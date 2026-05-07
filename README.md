@@ -3,3 +3,5 @@ A Jest + npm lab session
 
 #More information (in swedish)
 see: https://mau-webb.github.io/resurser/da395b-vt26/6-utvecklingsmetodik/i1/
+
+En liten ny rad uppdatering /Alex i terminalen.
