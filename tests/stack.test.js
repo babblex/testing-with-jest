@@ -17,3 +17,18 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+//Mitt Fail-version test LOTR - version
+test ('Lord of the rings: Gandalf falls down into Khazad-dûm', () => {
+    //The fellowship runs over the bridge in this order:
+    stack.push("Frodo");
+    stack.push("Boromir");
+    stack.push("Legolas");
+    stack.push("Gandalf");
+
+    //The Balrog attacks and pulls down Gandalf into the abyss: "FLY, you fools!"
+    stack.pop();
+
+    //Frodo shouts "NOOO!" and desperately hopes that Gandalf is still there :´(
+    expect(stack.peek()).toBe("Gandalf");
+})
