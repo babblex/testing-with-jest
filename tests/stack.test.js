@@ -18,7 +18,7 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-//Mitt Fail-version test LOTR - version
+//Mitt Fungerande-version test LOTR - version
 test ('Lord of the rings: Gandalf falls down into Khazad-dûm', () => {
     //The fellowship runs over the bridge in this order:
     stack.push("Frodo");
@@ -30,5 +30,5 @@ test ('Lord of the rings: Gandalf falls down into Khazad-dûm', () => {
     stack.pop();
 
     //Frodo shouts "NOOO!" and desperately hopes that Gandalf is still there :´(
-    expect(stack.peek()).toBe("Gandalf");
+    expect(stack.peek()).toBe("Legolas");
 })
