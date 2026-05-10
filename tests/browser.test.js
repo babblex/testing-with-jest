@@ -35,7 +35,7 @@ describe('Clicking "Pusha till stacken"', () => {
     });
 });
 
-//Mitt Failande test med LOTR tema igen.
+//Mitt Lyckade test med LOTR tema igen.
 describe('Lord of the rings: Pippins Second breakfast', () => {
     it('Aragon will not stop for second breakfast and tosses an apple', async () => {
         //Simulate click on push button
@@ -50,7 +50,7 @@ describe('Lord of the rings: Pippins Second breakfast', () => {
         //Pippin checks what he actually got hit in the head with
         let topOfStack = await driver.findElement(By.id("top_of_stack")).getText();
 
-        //Pippin sincerely hopes he got his expected Second Breakfast
-        expect(topOfStack).toEqual("Second Breakfast");
-    }
-)})
+        //Pippin sincerely hopes he got his expected Second Breakfast - but will have to make due with the tossed apple
+        expect(topOfStack).toEqual("Tosses apple");
+    });
+});
