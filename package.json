@@ -15,7 +15,6 @@
   },
   "license": "MIT",
   "author": "alexandra szücs",
-  "type": "commonjs",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
