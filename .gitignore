@@ -144,4 +144,5 @@ vite.config.ts.timestamp-*
 
 geckodriver.exe
 
+
 /dist/
